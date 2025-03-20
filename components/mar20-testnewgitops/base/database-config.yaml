@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mar20-testnewgitops-database-config
+data:
+  VECTORDB_HOST: "mar20-testnewgitops-database"
+  VECTORDB_PORT: ""
